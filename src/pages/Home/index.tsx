@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "@/components/ui/button"
 
 
 const Home: React.FC = () => {
@@ -7,6 +8,7 @@ const Home: React.FC = () => {
       <h1 className="text-black font-bold text-3xl mt-9">
         Salve
       </h1>
+      <Button>CLICKA AI</Button>
     </div>
   );
 };
